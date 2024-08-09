@@ -1,30 +1,75 @@
-# ReachInbox.AI: Front-end React Project
+# ReachInbox Assignment
 
----
+Welcome to the ReachInbox Assignment repository! This project involves the implementation of various features for the ReachInbox platform, including user authentication, onebox data management, custom text editor functionality, and API integrations. The goal is to create a seamless and efficient user experience while ensuring robust backend support.
 
-## Overview
+## Table of Contents
 
-This project is a React application written in TypeScript using 
-figma file : https://www.figma.com/file/uECxqvFhEx9dn4ZuO7wqmu/Reachinbox-Assignment?type=design&node-id=6-19154&mode=design&t=03bJH7Jr6FYF7VSR-0
+- [Project Overview](#project-overview)
+- [Features](#features)
+- [Technology Stack](#technology-stack)
+- [Installation](#installation)
+- [API Endpoints](#api-endpoints)
+- [Usage](#usage)
+- [Keyboard Shortcuts](#keyboard-shortcuts)
+- [Dark and Light Mode](#dark-and-light-mode)
+- [Screenshots](#screenshots)
+- [Contributing](#contributing)
+- [License](#license)
 
+## Project Overview
 
-api documentation:https://documenter.getpostman.com/view/30630244/2sA2rCTMKr#433eb613-e405-4239-9e2d-f20485b31b27
+The ReachInbox Assignment is designed to simulate a mini version of the ReachInbox application. It includes:
 
----
+- **Login Page**: Users can log in with their credentials.
+- **Onebox Screen**: After logging in, users are redirected to the onebox screen, where they can view, reply to, and delete threads.
+- **Custom Text Editor**: A specialized text editor with custom buttons and functionality tailored for the ReachInbox platform.
+- **API Integrations**: Interaction with the backend through various API endpoints for managing onebox data and replies.
+
+## Features
+
+### 1. **Login Page**
+   - Implemented based on the provided Figma design.
+   - Secure user authentication and session management.
+   
+### 2. **Onebox Screen**
+   - Redirects users to the onebox screen after successful login.
+   - Lists all threads fetched from the backend.
+   - Allows users to delete threads with the DELETE endpoint.
+   - Supports replying to threads via a custom text editor.
+
+### 3. **Custom Text Editor**
+   - A tailored text editor for composing and editing replies.
+   - Includes custom buttons like “SAVE” and “Variables” for enhanced functionality.
+   
+### 4. **Keyboard Shortcuts**
+   - “D” key for deleting a thread.
+   - “R” key for opening the Reply box.
+
+### 5. **API Integrations**
+   - **GET /onebox/list**: Fetches the list of threads for the onebox screen.
+   - **GET /onebox/:thread_id**: Retrieves details for a specific thread.
+   - **DELETE /onebox/:thread_id**: Deletes a specific thread.
+   - **POST /reply/:thread_id**: Sends a reply to a specific thread.
+
+### 6. **Dark and Light Mode**
+   - The application supports both dark and light modes, enhancing usability based on user preference.
+
+## Technology Stack
+
+- **Frontend**: HTML, CSS, JavaScript
+- **Backend**: Node.js, Express.js
+- **Database**: MongoDB (if applicable)
+- **APIs**: RESTful APIs
+- **Authentication**: JWT (JSON Web Token)
 
 ## Installation
 
-To install and run this project on your local machine, follow these steps:
+To run this project locally, follow these steps:
 
-1. **Clone Repository:**
+1. **Clone the repository**:
    ```bash
-   https://github.com/anil-52026/Reachinbox-Assignment.git
-   
-   cd into project
+   git clone https://github.com/anil-52026/Reachinbox-Assignment.git
+   cd Reachinbox-Assignment
 
-   run `npm install`
 
-   run `npm run dev`
 
-   now open in browser 
-   http://localhost:5173/
