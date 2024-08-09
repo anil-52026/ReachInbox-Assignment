@@ -100,7 +100,7 @@ To run this project locally, follow these steps:
    ```bash
    npm run dev
 
-The application should now be running on **http://localhost:5173**.
+The application should now be running on **http://localhost:5174**.
 
 ## Resources
 
