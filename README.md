@@ -10,13 +10,9 @@ This project involves the implementation of various features for the ReachInbox 
 - [Features](#features)
 - [Technology Stack](#technology-stack)
 - [Installation](#installation)
-- [API Endpoints](#api-endpoints)
-- [Usage](#usage)
-- [Keyboard Shortcuts](#keyboard-shortcuts)
-- [Dark and Light Mode](#dark-and-light-mode)
 - [Screenshots](#screenshots)
-- [Contributing](#contributing)
-- [License](#license)
+- [Resources](#license)
+
 
 ## Project Overview
 
