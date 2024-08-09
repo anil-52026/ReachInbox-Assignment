@@ -23,6 +23,31 @@ The ReachInbox Assignment is designed to simulate a mini version of the ReachInb
 - **Custom Text Editor**: A specialized text editor with custom buttons and functionality tailored for the platform to reply for the threads.
 - **API Integrations**: Interaction with the backend through various API endpoints for managing onebox data and replies.
 
+## LIVE PROJECT
+
+  - **Live link** :
+
+  - **Login Page** :
+    
+    ![Login Page](https://github.com/anil-52026/Reachinbox-Assignment/blob/main/src/assets/loginpage.png)
+
+  - **Dark Onebox** :
+
+    ![Onebox Screen](https://github.com/anil-52026/Reachinbox-Assignment/blob/main/src/assets/darkonebox.png)
+
+  - **Light Onebox** :
+
+    ![Onebox Screen](https://github.com/anil-52026/Reachinbox-Assignment/blob/main/src/assets/whiteonebox.png)
+
+  - **All Inbox** :
+
+    ![All Inbox](https://github.com/anil-52026/Reachinbox-Assignment/blob/main/src/assets/Allinbox.png)
+
+  - **Custom Editor** :
+
+    ![Reply Inbox](https://github.com/anil-52026/Reachinbox-Assignment/blob/main/src/assets/replybox.png)
+
+    
 ## Features
 
 ### 1. **Login Page**
