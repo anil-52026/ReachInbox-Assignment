@@ -11,7 +11,7 @@ This project involves the implementation of various features for the ReachInbox 
 - [Technology Stack](#technology-stack)
 - [Installation](#installation)
 - [Screenshots](#screenshots)
-- [Resources](#license)
+- [Resources](#resources)
 
 
 ## Project Overview
@@ -76,6 +76,12 @@ To run this project locally, follow these steps:
    npm start
 
 The application should now be running on **http://localhost:3000**.
+
+## Resources
+
+ - **Figma File** : https://www.figma.com/file/uECxqvFhEx9dn4ZuO7wqmu/Reachinbox-Assignment?type=design&node-id=0-1&mode=design
+   
+ - **API documentation** : https://documenter.getpostman.com/view/30630244/2sA2rCTMKr#433eb613-e405-4239-9e2d-f20485b31b27
 
 
 
