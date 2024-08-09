@@ -71,5 +71,11 @@ To run this project locally, follow these steps:
    git clone https://github.com/anil-52026/Reachinbox-Assignment.git
    cd Reachinbox-Assignment
 
+2.**Install dependencies**:
+   ```bash
+   npm install
+
+
+
 
 
