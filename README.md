@@ -47,6 +47,10 @@ The ReachInbox Assignment is designed to simulate a mini version of the ReachInb
 
     ![Reply Inbox](https://github.com/anil-52026/Reachinbox-Assignment/blob/main/src/assets/replybox.png)
 
+  - **Delete Shortcut** :
+
+    ![Delete Shortcut](https://github.com/anil-52026/Reachinbox-Assignment/blob/main/src/assets/DELETEKEY.png)
+
     
 ## Features
 
