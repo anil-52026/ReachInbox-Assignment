@@ -3,6 +3,7 @@ import AppBar from "../components/AppBar";
 import google from "../assets/google.svg";
 import Footer from "../components/Footer";
 
+
 function Login() {
     const Navigate = useNavigate()
     const token = localStorage.getItem('token')
@@ -37,7 +38,7 @@ function Login() {
           </div>
           <div className="">
             <Link
-              to="/login" 
+              to="/signup" 
               className="bg-gradient-to-r from-[#4B63DD] to-[#0524BFFC] mx-16 mt-5 px-6 text-sm py-3 rounded-md cursor-pointer"
             >
               Create an Account
