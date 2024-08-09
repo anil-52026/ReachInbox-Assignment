@@ -25,7 +25,7 @@ The ReachInbox Assignment is designed to simulate a mini version of the ReachInb
 
 ## LIVE PROJECT
 
-  - **Live link** :
+  - **Live link** : https://reachinbox-anil.netlify.app/
 
   - **Login Page** :
     
