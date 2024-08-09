@@ -14,7 +14,7 @@ function Login() {
   }
   const handleGoogleLogin = () => {
     // Redirect to Google login URL
-     window.location.href = "https://hiring.reachinbox.xyz/api/v1/auth/google-login?redirect_to=https://reachinbox-32.netlify.app";
+     window.location.href = "https://hiring.reachinbox.xyz/api/v1/auth/google-login?redirect_to=https://reachinbox-anil.netlify.app/login";
     // Navigate("/onebox");
   };
 
