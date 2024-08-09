@@ -20,11 +20,11 @@ This project involves the implementation of various features for the ReachInbox 
 
 ## Project Overview
 
-The ReachInbox Assignment is designed to simulate a mini version of the ReachInbox application. It includes:
+The ReachInbox Assignment is designed to simulate a mini version of the ReachInbox web-application. It includes:
 
-- **Login Page**: Users can log in with their credentials.
+- **Login Page**: Users can log in with their credentials with google signup authentication.
 - **Onebox Screen**: After logging in, users are redirected to the onebox screen, where they can view, reply to, and delete threads.
-- **Custom Text Editor**: A specialized text editor with custom buttons and functionality tailored for the ReachInbox platform.
+- **Custom Text Editor**: A specialized text editor with custom buttons and functionality tailored for the platform to reply for the threads.
 - **API Integrations**: Interaction with the backend through various API endpoints for managing onebox data and replies.
 
 ## Features
@@ -58,10 +58,8 @@ The ReachInbox Assignment is designed to simulate a mini version of the ReachInb
 
 ## Technology Stack
 
-- **Frontend**: HTML, CSS, JavaScript
-- **Backend**: Node.js, Express.js
-- **Database**: MongoDB (if applicable)
-- **APIs**: RESTful APIs
+- **Frontend**: HTML, CSS, JavaScript,Typescript
+- **APIs**: Postman API
 - **Authentication**: JWT (JSON Web Token)
 
 ## Installation
