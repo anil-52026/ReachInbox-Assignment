@@ -1,6 +1,8 @@
-# ReachInbox Assignment
+# ReachInbox Front-end Assignment
 
-Welcome to the ReachInbox Assignment repository! This project involves the implementation of various features for the ReachInbox platform, including user authentication, onebox data management, custom text editor functionality, and API integrations. The goal is to create a seamless and efficient user experience while ensuring robust backend support.
+Welcome to the ReachInbox Assignment repository!
+
+This project involves the implementation of various features for the ReachInbox platform, including user authentication, onebox data management, custom text editor functionality, and API integrations. The goal is to create a seamless and efficient user experience while ensuring robust backend support.
 
 ## Table of Contents
 
