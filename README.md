@@ -7,10 +7,10 @@ This project involves the implementation of various features for the ReachInbox 
 ## Table of Contents
 
 - [Project Overview](#project-overview)
+- [Live Project](#screenshots)
 - [Features](#features)
 - [Technology Stack](#technology-stack)
 - [Installation](#installation)
-- [Screenshots](#screenshots)
 - [Resources](#resources)
 
 
