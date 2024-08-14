@@ -85,7 +85,7 @@ function SignUp() {
             </div>
           </div>
           <button type="submit" style={styles.signUpButton}>
-              <Link to="login" className="text-[#C1C2C5]">
+              <Link to="/login" className="text-[#C1C2C5]">
                 SIGN UP
               </Link>
           </button>
