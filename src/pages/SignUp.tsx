@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
  // Import useNavigate
-import { Link, useNavigate } from "react-router-dom"; 
+import { Link} from "react-router-dom"; 
 
 function SignUp() {
   const [firstName, setFirstName] = useState<string>('');
@@ -8,7 +8,6 @@ function SignUp() {
   const [email, setEmail] = useState<string>('');
   const [password, setPassword] = useState<string>('');
   const [showPassword, setShowPassword] = useState<boolean>(false);
-  const navigate = useNavigate(); // Initialize useNavigate
 
   useEffect(() => {
     document.body.style.backgroundColor = '#000';
@@ -23,7 +22,7 @@ function SignUp() {
     console.log('Last Name:', lastName);
     console.log('Email:', email);
     console.log('Password:', password);
-    navigate('/login'); // Navigate to the login page
+    
   };
 
   return (
@@ -85,6 +84,7 @@ function SignUp() {
             </div>
           </div>
           <button type="submit" style={styles.signUpButton}>
+          {/* onClick={(e)=>{Navigate("/login")}} */}
               <Link to="/login" className="text-[#C1C2C5]">
                 SIGN UP
               </Link>
