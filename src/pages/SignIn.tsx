@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import { Link, useNavigate } from "react-router-dom";
+// import { Link, useNavigate } from "react-router-dom";
+import { Link} from "react-router-dom"; 
 
 function SignIn() {
 
@@ -55,8 +56,7 @@ function SignIn() {
             <Link to="/login" className="text-[#C1C2C5]">
                 Sign In
             </Link>
-            {/* Sign In */}
-            </button>
+          </button>
         </form>
       </div>
     </div>
