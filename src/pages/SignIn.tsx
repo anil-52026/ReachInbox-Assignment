@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react';
+import { Link, useNavigate } from "react-router-dom";
 
 function SignIn() {
+
   const [email, setEmail] = useState<string>('');
   const [password, setPassword] = useState<string>('');
   const [showPassword, setShowPassword] = useState<boolean>(false);
@@ -49,7 +51,12 @@ function SignIn() {
             </span>
           </div>
           <a href="#" style={styles.forgotPassword}>Forgot Password?</a>
-          <button type="submit" style={styles.signInButton}>Sign In</button>
+          <button type="submit" style={styles.signInButton}>
+            <Link to="/login" className="text-[#C1C2C5]">
+                Sign In
+            </Link>
+            {/* Sign In */}
+            </button>
         </form>
       </div>
     </div>
